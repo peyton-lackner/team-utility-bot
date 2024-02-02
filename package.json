@@ -1,0 +1,16 @@
+{
+  "name": "demo-bot",
+  "version": "a0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "peytonlackner",
+  "license": "GPL-3.0+",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.1"
+  }
+}
