@@ -23,7 +23,7 @@ THIS BOT IS CURRENTLY NOT INTEDED TO BE USED! USING IT IN IT'S CURRENT FORM WILL
 1. Download ALL files
 2. Create a file named ".env" in the root of the project
 3. Fill in the following template:
-4. 
+   
     TOKEN =
 
     GUILD_ID =
