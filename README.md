@@ -25,24 +25,39 @@ THIS BOT IS CURRENTLY NOT INTEDED TO BE USED! USING IT IN IT'S CURRENT FORM WILL
 3. Fill in the following template:
     TOKEN =
 
+
     GUILD_ID =
+   
     CLIENT_ID =
 
+
     FOUNDATION_ROLE_ID =
+   
     ACADEMY_ROLE_ID =
+   
     CHAMPION_ROLE_ID =
+   
     MASTER_ROLE_ID =
+   
     PREMIER_ROLE_ID =
 
+
     FOUNDATION_SCHEDULING_ID =
+   
     ACADEMY_SCHEDULING_ID =
+   
     CHAMPION_SCHEDULING_ID =
+   
     MASTER_SCHEDULING_ID =
+   
     PREMIER_SCHEDULING_ID =
+   
+
 
     FORM =
+   
 
-4. In config.json, replace "testServer" with the serverID you want to use for testing and replace "devs" with the userID's that you want developer access for the bot.
+5. In config.json, replace "testServer" with the serverID you want to use for testing and replace "devs" with the userID's that you want developer access for the bot.
 
 ### Executing program
 
