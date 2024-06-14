@@ -13,10 +13,10 @@ THIS BOT IS CURRENTLY NOT INTEDED TO BE USED! USING IT IN IT'S CURRENT FORM WILL
 ### Dependencies
 
 * Should work on any OS, but only tested on Windows 11
-* node.js v20.10.0
+* node.js v20.14.0
 * nodemon v3.0.3 (Optional but will have to change start script if not using nodemon)
-* discord.js v14.14.1
-* dotenv v16.4.1
+* discord.js v14.15.3
+* dotenv v16.4.5
 
 ### Installing
 
