@@ -1,7 +1,7 @@
 const { testServer } = require('../../../config.json');
 const areCommandsDifferent = require('../../utils/areCommandsDifferent');
 const getApplictionCommands = require('../../utils/getApplictionCommands');
-const getLocalCommands = require('../../utils/getLocalCommands')
+const getLocalCommands = require('../../utils/getLocalCommands');
 
 module.exports = async (client) => {
     try {

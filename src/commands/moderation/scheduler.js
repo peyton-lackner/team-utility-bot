@@ -55,26 +55,31 @@ module.exports = {
 
     callback: (client, interaction) => {
         let leagues = [];
+
         if(interaction.options.get('fl') || interaction.options.get('all')) {
             client.channels.cache.get(process.env.FOUNDATION_SCHEDULING_ID)
             .send(`Hello <@&${process.env.FOUNDATION_ROLE_ID}>! We are playing the ${interaction.options.getString('team')} this week! Please fill out the scheduler form below: ${process.env.FORM}`);
             leagues.push('FL');
         }
+
         if(interaction.options.get('al') || interaction.options.get('all')) {
             client.channels.cache.get(process.env.ACADEMY_SCHEDULING_ID)
             .send(`Hello <@&${process.env.ACADEMY_ROLE_ID}>! We are playing the ${interaction.options.getString('team')} this week! Please fill out the scheduler form below: ${process.env.FORM}`);
             leagues.push('AL');
         }
+
         if(interaction.options.get('cl') || interaction.options.get('all')) {
             client.channels.cache.get(process.env.CHAMPION_SCHEDULING_ID)
             .send(`Hello <@&${process.env.CHAMPION_ROLE_ID}>! We are playing the ${interaction.options.getString('team')} this week! Please fill out the scheduler form below: ${process.env.FORM}`);
             leagues.push('CL');
         }
+
         if(interaction.options.get('ml') || interaction.options.get('all')) {
             client.channels.cache.get(process.env.MASTER_SCHEDULING_ID)
             .send(`Hello <@&${process.env.MASTER_ROLE_ID}>! We are playing the ${interaction.options.getString('team')} this week! Please fill out the scheduler form below: ${process.env.FORM}`);
             leagues.push('ML');
         }
+
         if(interaction.options.get('pl') || interaction.options.get('all')) {
             client.channels.cache.get(process.env.PREMIER_SCHEDULING_ID)
             .send(`Hello <@&${process.env.PREMIER_ROLE_ID}>! We are playing the ${interaction.options.getString('team')} this week! Please fill out the scheduler form below: ${process.env.FORM}`);
