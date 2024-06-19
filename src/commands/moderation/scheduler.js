@@ -92,6 +92,6 @@ module.exports = {
         }
         output = output.slice(0, -2);
 
-        interaction.reply(`Sent scheduler ping(s) for ${output}!`);
+        interaction.reply(`Sent scheduler ping(s) for ${output}!`.replace(/,/g, ", "));
     },
 };

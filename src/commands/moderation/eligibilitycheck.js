@@ -141,6 +141,6 @@ module.exports = {
             leagues.push('PL');
         }
 
-        interaction.reply(`Sent eligibility ping(s) for ${leagues}!`);
+        interaction.reply(`Sent eligibility ping(s) for ${leagues}!`.replace(/,/g, ", "));
     },
 };
