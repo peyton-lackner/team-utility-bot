@@ -1,10 +1,8 @@
-# Project Title
-
-Team Utility Bot
+# Team Utility Bot
 
 ## Description
 
-The Team Utility Bot is intended to be used for Rocket League esports teams. The current implementation will ping out scheduling from a command.
+The Team Utility Bot is intended to be used for Rocket League esports teams. The current implementation will ping out scheduling from a command and check player eligibility.
 
 ### Dependencies
 
