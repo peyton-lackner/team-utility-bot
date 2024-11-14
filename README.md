@@ -6,10 +6,6 @@ Team Utility Bot
 
 The Team Utility Bot is intended to be used for Rocket League esports teams. The current implementation will ping out scheduling from a command.
 
-## Getting Started
-
-THIS BOT IS CURRENTLY NOT INTENDED TO BE USED! USING IT IN IT'S CURRENT FORM WILL REQUIRE BASIC PROGRAMMING KNOWLEDGE AND ABILITY TO HOST THE BOT YOURSELF!
-
 ### Dependencies
 
 * Should work on any OS, but only tested on Windows 11
